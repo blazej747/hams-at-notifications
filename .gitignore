@@ -1,0 +1,32 @@
+# Configuration files with API keys
+config.json
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Logs
+*.log
+hams_alerts.log
+
+# Seen alerts tracking file
+.hams_seen_alerts.json
+hams_seen_alerts
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
